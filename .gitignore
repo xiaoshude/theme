@@ -31,6 +31,13 @@ config/base.yaml
 /coverage
 yarn.lock
 components/**/*.js
+components/**/*.tsx
 components/**/*.jsx
-!components/**/__tests__/*.js
-!components/**/__tests__/*.js.snap
+components/**/__tests__/
+components/**/demo/
+.github
+docs
+scripts
+site
+tests
+typings
